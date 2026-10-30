@@ -32,4 +32,4 @@ After a minute or two it's live at https://finleyrayde-cell.github.io/ribbon/
 ## Editing
 Edit the HTML directly. The header and footer are repeated on each page, so change all six if you change one. If the app's data handling ever changes (sync, analytics, anything online), update `privacy.html` **before** that version ships, and change its "Effective" date.
 
-This repo only holds the website. The app's code is in the private `Purrpose` repo.
+This repo only holds the website. The app's code is in the private `ribbon-ios` repo.
