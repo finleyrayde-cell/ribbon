@@ -34,7 +34,7 @@
 <p>Yes. There are no ads, no in-app purchases and no subscription.</p>
 </div></details>
 <details><summary>Do I need an account or the internet?</summary><div>
-<p>No. Ribbon works completely offline and never connects to the internet. There's nothing to sign up for.</p>
+<p>No. Ribbon works completely offline and makes no network requests of its own. There's nothing to sign up for.</p>
 </div></details>
 <details><summary>Which devices does it work on?</summary><div>
 <p>iPhone with iOS 27 or later. There isn't an iPad, Mac or Apple Watch version, and Ribbon doesn't sync between devices.</p>
@@ -62,7 +62,7 @@
 <p>iPhone limits how many notifications an app can line up in advance. If you have lots of repeating reminders and haven't opened Ribbon for a while, the list runs short. The evening before that happens, Miso sends one quiet note. Open Ribbon for a second and the list refills.</p>
 </div></details>
 <details><summary>Can I hide what my reminders say on the Lock Screen?</summary><div>
-<p>Notes are hidden from notifications unless you turn on "Show notes in notifications". To hide titles too, go to iPhone Settings → Notifications → Ribbon → Show Previews → When Unlocked (or Never).</p>
+<p>Notes and tags are hidden from notifications and countdowns unless you turn on "Show notes in notifications". To hide titles too, go to iPhone Settings → Notifications → Ribbon → Show Previews → When Unlocked (or Never).</p>
 </div></details>
 <details><summary>How do I change the sound or the snooze length?</summary><div>
 <p>Ribbon → Settings → Notifications: choose an alert sound (or your iPhone's default) and how long Snooze lasts.</p>
@@ -93,7 +93,7 @@
 
 <h2>Subscriptions</h2>
 <details><summary>What does the #subscriptions tag do?</summary><div>
-<p>It makes that reminder firmer: warnings 3 days and 1 day before, a Time Sensitive alert on the day, and follow-ups 2, 4 and 6 hours later until it's marked Done. It alerts even if Sound or Reminder alerts is off in Ribbon, and snoozes are limited to an hour at a time. See the <a href="guide.html#subscriptions">guide</a>.</p>
+<p>It makes that reminder firmer: warnings 3 days and 1 day before (fewer for reminders that repeat every few days, so warnings don't overlap the previous one), a Time Sensitive alert on the day, and follow-ups 2, 4 and 6 hours later until it's marked Done. It alerts even if Sound or Reminder alerts is off in Ribbon, and snoozes are limited to an hour at a time. See the <a href="guide.html#subscriptions">guide</a>.</p>
 </div></details>
 <details><summary>How do I turn the firmer alerts off?</summary><div>
 <p>Remove the #subscriptions tag from the reminder. There's no setting that turns it off for every reminder. The tag is the switch.</p>
@@ -105,12 +105,12 @@
 <p>No. Ribbon only knows what you type in. It never connects to your bank, cards or the App Store, and it can't cancel or change anything. Cancelling is up to you, with the provider.</p>
 </div></details>
 <details><summary>Are the monthly and yearly totals exact?</summary><div>
-<p>No, they're estimates from the costs you've entered. Each cost follows the reminder's Repeat (monthly if it doesn't repeat): yearly prices are divided by 12 for the monthly figure, and weekly prices are multiplied by 52 for the yearly one. Costs in a different currency from your iPhone's aren't counted.</p>
+<p>No, they're estimates from the costs you've entered. Each cost follows the reminder's Repeat: weekly prices are multiplied by 52 (times the number of chosen days), monthly by 12, and the monthly figure is the yearly total divided by 12. Costs on reminders that don't repeat, and costs in a different currency from your iPhone's, aren't counted.</p>
 </div></details>
 
 <h2>Privacy and your data</h2>
 <details><summary>Can you see my reminders?</summary><div>
-<p>No. Everything stays in an encrypted file on your iPhone. Ribbon never sends anything to me or anyone else. Read the <a href="privacy.html">Privacy Policy</a>.</p>
+<p>No. Your reminders are kept in a file on your iPhone, encrypted by iOS when your iPhone has a passcode. Ribbon never sends them to me or anyone else. Read the <a href="privacy.html">Privacy Policy</a>.</p>
 </div></details>
 <details><summary>Can I lock Ribbon?</summary><div>
 <p>Yes. Settings → Privacy &amp; security → "Require Face ID to open". It falls back to your iPhone passcode.</p>
